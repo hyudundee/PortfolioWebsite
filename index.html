@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portfolio Website</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="max-width">
+      <div class="logo"><a href="#">Portfo<span>lio.</span></a></div>
+      <ul class="menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Skills</a></li>
+        <li><a href="#">Awards</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <div class="menu-btn">
+        <em class="fas fa-bars"></em>
+      </div>
+    </div>
+  </nav>
+
+  <!-- home section start -->
+  <section class="home" id="home">
+    <div class="max-width">
+      <div class="home-content">
+        <div class="text-1">Hello My name is</div>
+        <div class="text-2">Haoran Yu</div>
+        <div class="text-3">And I'm a <span>Software Developer</span></div>
+        <a href="#">Hire me</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- about section start -->
+  <section class="about" id="about">
+    <div class="max-width">
+      <h2 class="title">About me</h2>
+      <div class="about-content">
+        <div class="column left">
+          <img src="./resourses/img/portarit.png" alt="">
+        </div>
+        <div class="column right">
+          <div class="text">I'm Haoran and I'm a <span>software developer</span></div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque earum iure dolore explicabo, similique maiores officia? Aperiam, delectus. Suscipit corporis natus culpa ipsum soluta sequi dolor minus animi quidem officia facilis, voluptates nesciunt optio! Dignissimos ad commodi velit? Reiciendis, quod officiis. Praesentium voluptatem vero qui sunt, culpa eveniet quo ratione commodi quasi ipsam dolorum corporis maxime consequuntur mollitia veniam numquam!
+          </p>
+          <a href="#">Download CV</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- service section start -->
+  <section class="services" id="services">
+    <div class="max-width">
+      <h2 class="title">My services</h2>
+      <div class="serv-content">
+        <div class="card">
+          <div class="box">
+            <em class="fas fa-paint-brush"></em>
+            <div class="text">Web Design</div>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae sit sunt error ducimus aliquid quo.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="box">
+            <em class="fas fa-chart-line"></em>
+            <div class="text">Advertising</div>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae sit sunt error ducimus aliquid quo.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="box">
+            <em class="fas fa-code"></em>
+            <div class="text">App Design</div>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae sit sunt error ducimus aliquid quo.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- skill section start -->
+  <section class="skills" id="skills">
+    <div class="max-width">
+      <h2 class="title">My skills</h2>
+      <div class="skills-content">
+        <div class="column left">
+          <div class="text">My creative skills & experiences.</div>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis numquam esse assumenda odit sint perferendis aspernatur labore nesciunt commodi unde? Magni nostrum quas in, culpa corporis reiciendis consequatur hic ratione voluptate sunt soluta rem cumque, odio error maiores, vitae atque nobis! Voluptates harum quasi vel quaerat quod inventore expedita id aut, odio dolorem optio error quos nostrum magnam, quidem porro.
+          </p>
+          <a href="#">Read more</a>
+        </div>
+        <div class="column right">
+          <div class="bars">
+            <div class="info">
+              <span>HTML/CSS</span>
+              <span>80%</span>
+            </div>
+            <div class="line htmlcss"></div>
+          </div>
+          <div class="bars">
+            <div class="info">
+              <span>JavaScript</span>
+              <span>80%</span>
+            </div>
+            <div class="line bars javascript"></div>
+          </div>
+          <div class="bars">
+            <div class="info">
+              <span>Java</span>
+              <span>90%</span>
+            </div>
+            <div class="line java"></div>
+          </div>
+          <div class="bars">
+            <div class="info">
+              <span>Python</span>
+              <span>90%</span>
+            </div>
+            <div class="line python"></div>
+          </div>
+          <div class="bars">
+            <div class="info">
+              <span>MySQL</span>
+              <span>80%</span>
+            </div>
+            <div class="line mysql"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- project section start -->
+  <section class="projects" id="projects">
+    <div class="max-width">
+      <h2 class="title">My projects</h2>
+      <div class="carousel owl-carousel">
+        <div class="card">
+          <div class="box">
+            <img src="./resourses/img/android-512.png" alt="">
+            <div class="text">Uber Clone App</div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="box">
+            <img src="./resourses/img/android-512.png" alt="">
+            <div class="text">Uber Clone App</div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="box">
+            <img src="./resourses/img/android-512.png" alt="">
+            <div class="text">Uber Clone App</div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="box">
+            <img src="./resourses/img/android-512.png" alt="">
+            <div class="text">Uber Clone App</div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- contact section start -->
+  <section class="contact" id="contact">
+    <div class="max-width">
+      <h2 class="title">Contact me</h2>
+      <div class="contact-content">
+        <div class="column left">
+          <div class="text">Get in Touch</div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur eius odit quisquam voluptatibus. Odio atque dignissimos quidem laudantium, id doloribus?
+          </p>
+          <div class="icons">
+            <div class="row">
+              <em class="fas fa-user"></em>
+              <div class="info">
+                <div class="head">Name</div>
+                <div class="sub-title">Haoran Yu</div>
+              </div>
+            </div>
+            <div class="row">
+              <em class="fas fa-map-marker-alt"></em>
+              <div class="info">
+                <div class="head">Address</div>
+                <div class="sub-title">1731 Sageland Dr, San Jose</div>
+              </div>
+            </div>
+            <div class="row">
+              <em class="fas fa-envelope"></em>
+              <div class="info">
+                <div class="head">Email</div>
+                <div class="sub-title">hyudundee@gmail.com</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="column right">
+          <div class="text">Message me</div>
+          <form action="#">
+            <div class="field">
+              <div class="field name">
+                <input type="text" placeholder="Name" required>
+              </div>
+              <div class="field email">
+                <input type="email" placeholder="Email" required>
+              </div>
+            </div>
+            <div class="field">
+              <input type="text" placeholder="Subject" required>
+            </div>
+            <div class="field textarea">
+              <textarea cols="30" rows="10" placeholder="Describe project.." required></textarea>
+            </div>
+            <div class="button">
+              <button type="submit">Send message</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script src="script.js"></script>
+</body>
+</html>
+
+<!-- https://www.youtube.com/watch?v=tcskp-ncN0I -->
